@@ -42,7 +42,7 @@
 	.project-client {
 	 
 	 	color: #156f9a;
-	 	font-size: 1.8em;	
+	 	font-size: 1.5em;	
 	}
 	.project-client::before {
 

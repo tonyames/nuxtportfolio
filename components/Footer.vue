@@ -40,11 +40,20 @@
 		</div><!-- /.container -->
 	</footer>
 </template>
-<script></script>
+<script>
+
+export default {
+
+	transition: {
+		name: 'page'
+	}
+}
+
+</script>
 <style>
 .footer__wrapper {
     width: 100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
     color: #fff;
     background-color: #cbdbf2;
@@ -63,6 +72,14 @@ color: black;
 }
 .c-footer__footer {
 	color: black;
+}
+
+/* handle transitions  */
+.page-enter-active, .page-leave-active {
+  transition: opacity .7s;
+}
+.page-enter, .page-leave-active {
+  opacity: 0;
 }
 
 </style>

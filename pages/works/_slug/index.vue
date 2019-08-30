@@ -52,7 +52,6 @@
 	export default {
 
 		
-		
 		async asyncData ({params}) { 
 		
 		const res = await import(`~/contents/projects/${params.slug}.md`)
@@ -132,7 +131,11 @@
 			// } 
 			// ]
       }
-    }
+	},
+	transition:{
+		name:'slide-fade'
+	},
+	
 }
 </script>
 <style lang="scss">

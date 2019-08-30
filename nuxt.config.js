@@ -25,7 +25,8 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' }],
+
   },
   /*
    ** Customize the progress-bar color
@@ -38,7 +39,11 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/vue-typed'],
+  // eslint-disable-next-line prettier/prettier
+  plugins: [
+    { src: "~/plugins/vue-typed"},
+    { src:"~/plugins/vue-particles",ssr:false}
+  ],
   /*
    ** Nuxt.js dev-modules
    */

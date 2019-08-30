@@ -1,12 +1,30 @@
 <template>
   <main class="page-content">   
-    
+    <no-ssr>
+          <vue-particles 
+          color="#2a2222"
+        :particleOpacity="0.5"
+        :particlesNumber="60"
+        shapeType="circle"
+        :particleSize="3"
+        linesColor="#000214"
+        :linesWidth="2"
+        :lineLinked="true"
+        :lineOpacity="0.4"
+        :linesDistance="150"
+        :moveSpeed="6"
+        :hoverEffect="true"
+        hoverMode="grab"
+        :clickEffect="true"
+        clickMode="push"/>
+    </no-ssr>
       <div id=hero>
+
         <div class="container">
           <div class="row">
-            <vue-typed-js :loop="true" :strings="['Hi,I am Tony Ames','a Product Designer helping startups,web agencies and small business build great digital products',
-              'With my background as Front End developper i am proficient in taking ideas from concepts to live']">
-            <h1 class="typing"></h1>
+            <vue-typed-js :loop="true" :strings="['Hi,I am Tony Ames','a Product Designer','and Front End developper','i help startups,web agencies and small business build great digital products',
+              'i am proficient in taking ideas from concepts to live']">
+            <h2 class="typing"></h2>
               
             </vue-typed-js>
             <h2></h2><br><br>
@@ -63,7 +81,6 @@
           </div>
         </div>
       </section>
-    
   </main>
 </template>
 <script>
@@ -74,6 +91,9 @@
   import WorkSection from '~/components/WorkSection.vue'
   import Footer from '~/components/Footer.vue'
 
+  
+ 
+
   export default {
     components: {
       Logo,
@@ -82,10 +102,20 @@
       WorkSection,
       Footer,
     },
+  
+		
+    transition: {
+      name:'slide-fade'
+    },
+
+    
+      
+  
 
    
-  };
+  }
 </script>
+
 
 <style>
 
@@ -93,33 +123,48 @@
   box-sizing: border-box;
 }
 
-h2 {
-  font-size: 2.2rem;
-  color: #156f9a;
+/* handle transitions  */
+/* .page-enter-active, .page-leave-active {
+  transition: opacity .7s;
 }
+.page-enter, .page-leave-active {
+  opacity: 0;
+} */
+ 
+h2 {
+  /* font-size: 2.2rem; */
+  color: #3abfd4; /*#1f7782;*/
+  font-weight: 600;
+} 
 .page-content {
   
   position: relative;
   z-index: 999;
   width: 100%;
-  margin-bottom: 20rem;
+  margin-bottom: 10rem;
   background-color: #fff;
 }
 
 #hero {
 
-  height: 60vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   font-weight: 200 !important;
-  background-color: #fff;
+  background-color:#3abfd4; /*#00010a;*/
+}
 
+.typed-element {
+
+  padding: 15px;
 }
 
 #hero h2 {
 
-  font-size: 3em;
+  font-size: 2em;
+  font-weight: 400;
+  color: #ffffff;
 
 }
 
@@ -157,6 +202,10 @@ h2 {
   padding-top: 5em;
   padding-bottom: 5em;
   background-color: #fff;
+}
+#particles-js {
+  position: absolute;
+  width:100%;
 }
 /*.container {
   margin: 0 auto;

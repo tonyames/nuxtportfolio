@@ -15,6 +15,11 @@
     components: {
       Header,
       Footer,
+    },
+    pageTransition :
+    { 
+      name: 'slide-fade',
+      mode: 'out-in'
     }
   }
 </script>
@@ -67,4 +72,17 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+  transition: all .6s ease;
+}
+.slide-fade-enter,
+.slide-fade-leave-to {
+  transform: translateX(50px);
+  opacity: 0;
+}
+
+
+
 </style>
