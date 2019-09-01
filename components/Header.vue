@@ -9,7 +9,7 @@
                 aria-expanded="false" aria-label="Toggle navigation">Menu</button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="nav navbar-nav ml-auto">
-            <nuxt-link tag="li" to="/works"><a>Works</a></nuxt-link>
+            <nuxt-link tag="li" to="/"><a>Works</a></nuxt-link>
             <nuxt-link tag="li" to="/about"><a>About</a></nuxt-link>
             <li><a href="/resume/resume_Tony_Ames_UX.pdf">Resume</a></li>
           </ul>
