@@ -26,7 +26,7 @@ export default {
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' }],
-
+    script: [{ src: '@/assets/js/main.js'}]
   },
   /*
    ** Customize the progress-bar color

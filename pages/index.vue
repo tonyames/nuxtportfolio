@@ -24,12 +24,10 @@
           <div class="row">
             <vue-typed-js :loop="true" :strings="['Hi,I am Tony Ames','a Product Designer','and Front End developper','i help startups,web agencies and small business build great digital products',
               'i am proficient in taking ideas from concepts to live']">
-            <h2 class="typing"></h2>
-              
+            <h2 class="typing"></h2> 
             </vue-typed-js>
             <h2></h2><br><br>
-            <p class="hero_about typing">.</p>    
-              
+            <p class="hero_about typing">.</p>     
           </div>
         </div>
       </div>
@@ -41,7 +39,7 @@
           <WorkSection/>
         </div>
       </section>
-      <section class="content-section">
+      <!-- <section class="content-section">
         <div class="container">
           <div class="row mt-4 mb-4">
             <h2>Work Experience</h2>
@@ -60,7 +58,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="content-section">
         <div class="container">
           <div class="row mt-4 mb-4">
@@ -91,8 +89,7 @@
   import WorkSection from '~/components/WorkSection.vue'
   import Footer from '~/components/Footer.vue'
 
-  
- 
+
 
   export default {
     components: {
@@ -102,18 +99,30 @@
       WorkSection,
       Footer,
     },
-  
 		
     transition: {
       name:'slide-fade'
     },
-
     
-      
-  
-
-   
+    mounted: function () {
+      this.$nextTick(function () {
+        // Ce code va être exécuté seulement
+        // une fois le rendu de la vue entière terminé
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+            s1.async=true;
+            s1.src='https://embed.tawk.to/5d41fb987d27204601c8a58b/default';
+            s1.charset='UTF-8';
+            s1.setAttribute('crossorigin','*');
+            s0.parentNode.insertBefore(s1,s0);
+            })();
+      })
+    }
   }
+    
+
+
 </script>
 
 
