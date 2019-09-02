@@ -131,14 +131,6 @@
 * {
   box-sizing: border-box;
 }
-
-/* handle transitions  */
-/* .page-enter-active, .page-leave-active {
-  transition: opacity .7s;
-}
-.page-enter, .page-leave-active {
-  opacity: 0;
-} */
  
 h2 {
   /* font-size: 2.2rem; */

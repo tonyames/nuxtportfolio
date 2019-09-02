@@ -1,22 +1,24 @@
 <template>
   <header>
-    <nav id="topNav" class="navbar navbar-expand-lg">
+    <b-navbar toggleable="lg" type="light" variant="light">
       <div class="container">
-        <nuxt-link to="/">
-          <img class="img-fluid" src="~/static/icon.png">Tony Ames
-        </nuxt-link>
-        <button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">Menu</button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="nav navbar-nav ml-auto">
-            <nuxt-link tag="li" to="/"><a>Works</a></nuxt-link>
-            <nuxt-link tag="li" to="/about"><a>About</a></nuxt-link>
-            <li><a href="/resume/resume_Tony_Ames_UX.pdf">Resume</a></li>
-          </ul>
-        </div>  
-      </div>      
-    </nav>
-  </header>
+        <b-navbar-brand href="#">        
+          <nuxt-link to="/">
+            <img class="img-fluid" src="~/static/icon.png">Tony Ames
+          </nuxt-link>
+        </b-navbar-brand>
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+        <b-collapse id="nav-collapse" is-nav>
+          <!-- Right aligned nav items -->
+          <b-navbar-nav class="ml-auto align-items-center">
+            <nuxt-link tag="li" to="/"><a class="nav-link">Works</a></nuxt-link>
+            <nuxt-link tag="li" to="/about"><a class="nav-link">About</a></nuxt-link>
+            <b-nav-item href="/resume/resume_Tony_Ames_UX.pdf" target="_blank">Resume</b-nav-item>
+          </b-navbar-nav>
+        </b-collapse>
+      </div>
+    </b-navbar>
+ </header>
 </template>
 
 <script>
@@ -29,48 +31,91 @@ export default {
 }
 </script>
 <style>
-  
-  /* #MainNav {
 
-    width:50px;
-    padding-top: 100px;
-    height: 20vh;
-    position: fixed;
-    bottom: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-    flex-direction: row;
-    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
-    z-index: 1000;
-    writing-mode: vertical-lr; 
-    font-size: 0.95rem;
-    border-top-right-radius:20px;
-    background-color: #156f9a;
-
-    } */
+  :root {
+    --mainColor: #41fef1;
+  }
   .nav-socials {
-
     display: flex;
     padding-top: 0;
     /*writing-mode: vertical-lr; */
   }
+ 
 
-  li {
-      
+  li {  
     list-style: none;
     margin:15px;
   }
-  #topNav {
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;;
-    margin-left: auto;
-    font-size: 1.15em;
-    color:black;
-
+  a {
+    color: #000;
+    text-decoration: none;
   }
+  a:hover {
+    text-decoration: none;
+    color: #000 !important;
+  }
+
+  .nav-link {
+    font-size: 1.15rem;
+    
+    
+  }
+
+ .nuxt-link-exact-active a {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .2s;
+}
+
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.nav-link:hover {
+
+  color: #000 !important;
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 50px;
+  color: #000;
+  text-decoration: none;
+
+}
 
   .link_hireMe {
 

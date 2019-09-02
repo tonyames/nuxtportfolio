@@ -26,7 +26,12 @@ export default {
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' }],
-    script: [{ src: '@/assets/js/main.js'}]
+    script: [
+      { src: '~assets/js/main.js' },
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'
+      }
+  ]
   },
   /*
    ** Customize the progress-bar color
