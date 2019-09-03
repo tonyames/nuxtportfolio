@@ -27,13 +27,25 @@
 						</div>
 					</div>
 					<div class="col-12 col-md-3 ">
-						<div class="tasks_list_wrapper">
-							<h3>Task & Roles</h3>
-							<ul>
-								<li>Information Architecture</li>
-								<li>UX/UI Design</li>
-								<li>Front End Development</li>	
-							</ul>
+						<div class="row">
+							<div class="tasks_list_wrapper">
+								<h3>Client</h3>
+								<ul>
+									<li>{{attributes.client}}</li>
+									<li>{{attributes.website}}</li>
+									<li>Front End Development</li>	
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="tasks_list_wrapper">
+								<h3>Task & Roles</h3>
+								<ul>
+									<li>Information Architecture</li>
+									<li>UX/UI Design</li>
+									<li>Front End Development</li>	
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>

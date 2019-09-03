@@ -4,7 +4,7 @@
           <vue-particles 
           color="#2a2222"
         :particleOpacity="0.5"
-        :particlesNumber="60"
+        :particlesNumber="100"
         shapeType="circle"
         :particleSize="3"
         linesColor="#000214"
@@ -19,7 +19,6 @@
         clickMode="push"/>
     </no-ssr>
       <div id=hero>
-
         <div class="container">
           <div class="row">
             <vue-typed-js :loop="true" :strings="['Hi,I am Tony Ames','a Product Designer','and Front End developper','i help startups,web agencies and small business build great digital products',

@@ -7,6 +7,7 @@ description: Digital app for loyalty program platform
 category: Website and Android App Design
 thumbnail: /projects/thumbnail-three.png
 title: Redesign a loyalty reward app
+website: https://moozicash.com
 ---
 
 ## Contexte 

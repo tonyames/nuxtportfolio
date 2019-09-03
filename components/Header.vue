@@ -56,9 +56,7 @@ export default {
   }
 
   .nav-link {
-    font-size: 1.15rem;
-    
-    
+    font-size: 1.15rem;   
   }
 
  .nuxt-link-exact-active a {

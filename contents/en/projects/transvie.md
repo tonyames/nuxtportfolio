@@ -7,6 +7,7 @@ client: Transvie
 description: Website Redesign for a Senegalese Health Insurance
 category: Website and Android App Design
 thumbnail: /projects/thumbnail-two.png
+website: https://transviediaspo.netlify.com
 ---
 
 
