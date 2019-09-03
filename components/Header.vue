@@ -2,11 +2,11 @@
   <header>
     <b-navbar toggleable="lg" type="light" variant="light">
       <div class="container">
-        <b-navbar-brand href="#">        
-          <nuxt-link to="/">
+               
+          <nuxt-link class="navbar-brand" to="/">
             <img class="img-fluid" src="~/static/icon.png">Tony Ames
           </nuxt-link>
-        </b-navbar-brand>
+        
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <!-- Right aligned nav items -->
