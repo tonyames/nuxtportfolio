@@ -1,38 +1,36 @@
 <template>
   <main class="page-content">   
     <no-ssr>
-          <vue-particles 
+      <vue-particles 
           color="#2a2222"
-        :particleOpacity="0.5"
-        :particlesNumber="100"
-        shapeType="circle"
-        :particleSize="3"
-        linesColor="#000214"
-        :linesWidth="2"
-        :lineLinked="true"
-        :lineOpacity="0.4"
-        :linesDistance="150"
-        :moveSpeed="6"
-        :hoverEffect="true"
-        hoverMode="grab"
-        :clickEffect="true"
-        clickMode="push"/>
+          :particleOpacity="0.5"
+          :particlesNumber="90"
+          shapeType="circle"
+          :particleSize="3"
+          linesColor="#000214"
+          :linesWidth="1"
+          :lineLinked="true"
+          :lineOpacity="0.4"
+          :linesDistance="150"
+          :moveSpeed="6"
+          :hoverEffect="true"
+          hoverMode="grab"
+          :clickEffect="true"
+          clickMode="push"/>
     </no-ssr>
       <div id=hero>
         <div class="container">
           <div class="row">
-            <vue-typed-js :loop="true" :strings="['Hi,I am Tony Ames','a Product Designer','and Front End developper','i help startups,web agencies and small business build great digital products',
-              'i am proficient in taking ideas from concepts to live']">
+            <vue-typed-js :loop="true" :strings="['Hi,I am Tony Ames','a Product Designer','and Front End developper','I help startups,web agencies and small business build great digital products',
+              'I am proficient in taking ideas from concepts to live']">
             <h2 class="typing"></h2> 
             </vue-typed-js>
-            <h2></h2><br><br>
-            <p class="hero_about typing">.</p>     
           </div>
         </div>
       </div>
-      <section class="content-section">
+      <section class="content-section ">
         <div class="container">
-          <div class="row mt-2 mb-4">
+          <div class="mt-4 mb-4">
             <h2>Latest Works</h2>
           </div>
           <WorkSection/>
@@ -60,14 +58,12 @@
       </section> -->
       <section class="content-section">
         <div class="container">
-          <div class="row mt-4 mb-4">
+          <div class="mt-4 mb-4">
             <h2>Clients</h2>
+            <p>I've been fortunate to work with some amazing partners. From corporate companies to public organizations, startups and forward-thinking web studios</p>
           </div>
           <div class="row">
-            <div class="col-10">
-              <p>I've been fortunate to work with some amazing partners. From corporate companies to public organizations, startups and forward-thinking web studios</p>
-            </div>
-            <div class="col-12">
+            <div class="col-12 mt-4">
               <img class="clients-logo-item" src="@/static/clients/Dayo-logo.png">
               <img class="clients-logo-item" src="@/static/clients/kan_logo_red.png">
               <img class="clients-logo-item" src="@/static/clients/logo-afribills-web.png">
@@ -199,8 +195,8 @@ h2 {
 
   position: relative;
   overflow: hidden;
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: em;
+  padding-bottom: em;
   background-color: #fff;
 }
 #particles-js {

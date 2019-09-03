@@ -16,11 +16,6 @@
 				</div>
 			</div>
 			<section class="mt-4 mb-4">
-				<div class="row mt-4 mb-4">
-					<div class="">
-						<h1>{{attributes.title}}</h1>	
-					</div>
-				</div>
 				<div class="row">
 					<div class="col-12 col-md-9 ">
 						<div class="" v-html="content">
@@ -32,8 +27,7 @@
 								<h3>Client</h3>
 								<ul>
 									<li>{{attributes.client}}</li>
-									<li>{{attributes.website}}</li>
-									<li>Front End Development</li>	
+									<li> <a :href="`${attributes.website}`" target="_blanl">{{attributes.website}}</a></li>	
 								</ul>
 							</div>
 						</div>

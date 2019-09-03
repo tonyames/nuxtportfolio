@@ -41,14 +41,14 @@
         {
           category:"Website & Android App Design",
           client:"MooziStudio",
-          description:"Moozicash th Loyalty Card App", 
+          description:"Moozicash the digital loyalty App", 
           thumbnail:"/projects/moozicash/thumbnail-three.png",
           slug:"moozicash",
         },
         {
           category:"Website and Android App Design",
           client:"CountryPocket",
-          description:"Service on Demand platform", 
+          description:"Daily services on demand platform", 
           thumbnail:"/projects/countrypocket/thumbnail-four.png",
           slug:"countrypocket",
         } 

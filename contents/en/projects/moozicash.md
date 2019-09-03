@@ -87,13 +87,25 @@ Les orientations obtenues en  collaboration avec l'équipe de développement et 
 ![Ebauches Refonte Moozicash]<img class=img-fluid src='/projects/moozicash/moozicash_sketch.png'>
 
 Une fois une direction obtenue, j'ai commencé la conception des interfaces puis la réalisation de **prototype basse fidélité** avec le logiciel **<a href="www.justinmind.com" target="_blank">JustInMind</a>** 
-1. Avant Refonte
-![Application MooziCash avant refonte]<img class=img-fluid src='/projects/moozicash/Before.jpg'>
-2. Après Maquettage et Prototypage 
-![Wireframes Moozicash]<img class=img-fluid src='/projects/moozicash/Wireframes.jpg'>
-3. Création d'un prototype haute fidélité
-![Prototype Haute fidélité]<img class=img-fluid src='/projects/moozicash/Prototype.jpg'>
-![Prototype MooziCash]<img class=img-fluid src='/projects/moozicash/prototype-Moozicash-gif.gif'>
+#### Avant Refonte
+
+<img class=img-fluid src='/projects/moozicash/Before.jpg' alt="Application MooziCash avant refonte">
+
+#### Après Maquettage et Prototypage 
+
+<img class=img-fluid src='/projects/moozicash/Wireframes.jpg' alt="Wireframes Moozicash">
+
+#### Création d'un prototype haute fidélité
+
+<div class="row mt-4 mb-4">
+    <div class=col-8>
+		<img class=img-fluid src='/projects/moozicash/Prototype.jpg'>
+    </div>
+    <div class=col-4>
+        <img class=img-fluid src='/projects/moozicash/prototype-Moozicash-gif.gif' alt="prototype moozicash">
+    </div>
+</div>
+
 ## Tests et Retours 
 
 Pour tester la pertinence des nouvelles interfaces, Nous avons regrouper quelques clients au sein du studio. Après leur avoir présenter le prototype et sans leur donner trop d'indications(technique du shadowing :wink:), nous leur avons demander de réaliser les tâches suivantes:
@@ -110,7 +122,7 @@ Nous voulions déterminer :
 Ces ateliers ont été fort instructifs et ont permis de mettre en évidence la nécessité de cette refonte. Les erreurs induite à la création de compte ont été réduite de 78%.
 
 ## Version finale 
-![]<img class=img-fluid src='/projects/moozicash/_thumbnail.jpg'>
+<img class=img-fluid src='/projects/moozicash/_thumbnail.jpg'>
 
 # Conception d'une landing page 
 
@@ -121,10 +133,18 @@ Toujours dans l'objectif d'accroître le nombre d'inscriptions et d'acquérir de
 Une solution que j'ai proposée était pour un utilisateur de pouvoir directement s'inscrire et créer son compte par simple soumission de son numéro de téléphone.
 Ce dernier recevrait un sms lui permettant de télécharger l'application mobile et de valider son compte en complétant son profil.
 
-![Composant inscription](composant-signin.PNG)
+
+<div class="row mt-4 mb-4">
+    <div class=col-6>
+        <img class=img-fluid src='/projects/moozicash/composant-signin.png' alt="sign in component">
+    </div>
+    <div class=col-6>
+    </div>
+</div>
+
 
 ## WebDesign
 
-![]<img class=img-fluid src='/projects/moozicash/Page_Particuliers.png'>
+<img class=img-fluid src='/projects/moozicash/Page_Particuliers.png'>
 
 
