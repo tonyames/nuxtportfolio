@@ -22,7 +22,7 @@
 						</div>
 					</div>
 					<div class="col-12 col-md-3 ">
-						<div class="row">
+						<div class="">
 							<div class="tasks_list_wrapper">
 								<h3>Client</h3>
 								<ul>
@@ -31,7 +31,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="row">
+						<div class="">
 							<div class="tasks_list_wrapper">
 								<h3>Task & Roles</h3>
 								<ul>

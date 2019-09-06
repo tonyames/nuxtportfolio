@@ -21,7 +21,7 @@
       <div id=hero>
         <div class="container">
           <div class="row">
-            <vue-typed-js :loop="true" :strings="['Hi,I am Tony Ames','a Product Designer','and Front End developper','I help startups,web agencies and small business build great digital products',
+            <vue-typed-js :loop="true" :strings="['Hi,I am Tony Ames','a Product Designer','and Front End developer','I help startups,web agencies and small business build great digital products',
               'I am proficient in taking ideas from concepts to live']">
             <h2 class="typing"></h2> 
             </vue-typed-js>
