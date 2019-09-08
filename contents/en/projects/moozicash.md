@@ -84,15 +84,20 @@ The directions obtained in collaboration with the development team and the marke
 
 Once a direction obtained, I started the design of the interfaces then the realization of **prototype low fidelity** with the software **<a href="www.justinmind.com" target="_blank">JustInMind</a>** 
 
-#### Before Redesign
+#### Before & After Redesign
 
-<img class=img-fluid src='/projects/moozicash/Before.jpg' alt="Application MooziCash avant refonte">
+<div class="row mt-4 mb-4">
+    <div class=col-6>
+	<h5>Before</h5>
+		<img class=img-fluid src='/projects/moozicash/Before.jpg' alt="Application MooziCash before redesign">
+    </div>
+    <div class=col-6>
+	<h5>After</h5>
+		<img class=img-fluid src='/projects/moozicash/Wireframes.jpg' alt="Wireframes Moozicash">   
+    </div>
+</div>
 
-#### After Redesign 
-
-<img class=img-fluid src='/projects/moozicash/Wireframes.jpg' alt="Wireframes Moozicash">
-
-#### The High Fidelity Prototype
+##### The High Fidelity Prototype
 
 <div class="row mt-4 mb-4">
     <div class=col-8>
@@ -119,7 +124,7 @@ We wanted to determine:
 These workshops were very instructive and highlighted the need for this overhaul. Errors caused by account creation were reduced by 78%.
 
 ## Final Product 
-<img class=img-fluid src='/projects/moozicash/_thumbnail.jpg'>
+<img class=img-fluid src='/projects/moozicash/_thumbnail.png'>
 
 ## Designing the landing page
 
