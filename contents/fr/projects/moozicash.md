@@ -73,7 +73,7 @@ le tableau ci-dessous récapitule les problémes décelés ainsi que les solutio
 
 A l'issue de cet audit, les axes d'améliorations suivants ont été mis en évidence :
 * Revoir l'architecture des informations au sein de l'application 
-* Proposer de nouvelles interfaces tenant permettant de résoudre les problèmes identifiés
+* Proposer de nouvelles interfaces permettant de résoudre les problèmes identifiés
 
 ### Vous avez dit Refonte ? :grinning: 
 

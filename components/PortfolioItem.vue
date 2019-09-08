@@ -65,6 +65,16 @@
 		margin-bottom: 2rem;
 		margin-top: 2rem;
 		border-radius: 15px;
+		box-sizing: border-box;
+    	box-shadow: 6px 5px 12px 1px #b5b5b5
+	}
+	.project-thumbnail:hover {
+
+		margin-bottom: 2rem;
+		margin-top: 2rem;
+		border-radius: 15px;
+		box-sizing: border-box;
+    	box-shadow: 2px 2px 12px 1px #3a89a9;
 	}
 
 	.project-description {

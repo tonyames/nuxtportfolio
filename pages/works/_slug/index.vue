@@ -27,7 +27,7 @@
 								<h3>Client</h3>
 								<ul>
 									<li>{{attributes.client}}</li>
-									<li> <a :href="`${attributes.website}`" target="_blanl">{{attributes.website}}</a></li>	
+									<li> <a class="client-site-link":href="`${attributes.website}`" target="_blanl">{{attributes.website}}</a></li>	
 								</ul>
 							</div>
 						</div>
@@ -77,6 +77,10 @@
 }
 </script>
 <style lang="scss">
+* {
+  box-sizing: border-box;
+}
+
 .page-content {
 	overflow: hidden;
 }
@@ -105,6 +109,11 @@ h2,h3,h4 {
     object-position: center center;
     opacity: 1;
     transition: opacity 0.5s ease 0.5s;
+}
+
+.client-site-link, .client-site-link:hover {
+
+	color:  #007e92;
 }
 .tasks_list_wrapper {
 	h2 {
