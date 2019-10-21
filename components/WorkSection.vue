@@ -24,6 +24,13 @@
     data () { 
       return {
         projects: [
+          {
+          category:"Android App Design",
+          client:"MTN Benin",
+          description:"How a Company train their staff on a digital era", 
+          thumbnail:"/projects/mtn/thumbnail-five.png",
+          slug:"mtn",
+        },
         {
           category:"Website Design",
           client:"NEPAD IPPF",

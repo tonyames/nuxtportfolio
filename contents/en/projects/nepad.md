@@ -58,7 +58,7 @@ After many sketches on paper, i tried to replicate ideas in the prototyping tool
 
 Submitting the wireframes for review to the team allowed us to get aligned and define clearly the changes to be made and the expectations on the final product. One of the challenges was through content hierarchy and design solutions  **to make a content heavy website look pleasant and readdable** 
 
-<div class= row mt-4 >
+<div class= "row mt-4">
     <div class= "col-12 col-md-6 align-items-center">
         <img class="img-fluid" src="/projects/nepad/wireframe.png" alt="home page wireframe">
     </div>
