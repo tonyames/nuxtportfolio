@@ -1,8 +1,9 @@
 ---
 slug: moozicash
+project: MooziCash
 date: 2019-05-10
 cover: https://picsum.photos/1200/800?grayscale&random=1
-client: MooziCash
+client: MooziStudio
 description: Digital app for loyalty program platform
 category: Website and Android App Design
 thumbnail: /projects/thumbnail-three.png

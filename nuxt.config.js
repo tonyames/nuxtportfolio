@@ -9,7 +9,7 @@ export default {
       '/works/moozicash',
       '/works/nepad',
       '/works/transvie',
-      '/works/mtn'
+      '/works/e-training-platform'
     ]
   },
   /*

@@ -36,26 +36,6 @@
           <WorkSection/>
         </div>
       </section>
-      <!-- <section class="content-section">
-        <div class="container">
-          <div class="row mt-4 mb-4">
-            <h2>Work Experience</h2>
-          </div>
-          <div class="row">
-            <div class="col-10">
-              <table></table>
-            </div>
-            <div class="col-12">
-              <img class="clients-logo-item" src="/clients/transvie-logo.png">
-              <img class="clients-logo-item" src="/clients/kan_logo_red.png">
-              <img class="clients-logo-item" src="/clients/Dayo-logo.png">
-              <img class="clients-logo-item" src="/clients/logo-moozistudio.png">
-              <img class="clients-logo-item" src="/clients/logo-afribills-web.png">
-              <img class="clients-logo-item" src="/clients/logo_cpocket.png">
-            </div>
-          </div>
-        </div>
-      </section> -->
       <section class="content-section">
         <div class="container">
           <div class="mt-4 mb-4">
@@ -70,6 +50,7 @@
               <img class="clients-logo-item" src="@/static/clients/LOGO-MOOZISTUDIO.png">
               <img class="clients-logo-item" src="@/static/clients/transvie-logo.png">
               <img class="clients-logo-item" src="@/static/clients/logo_cpocket.png">
+              <img class="clients-logo-item" src="@/static/clients/eba-logo.png">
             </div>
           </div>
         </div>

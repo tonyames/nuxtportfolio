@@ -1,9 +1,10 @@
 ---
-slug: mtn
+slug: e-training-platform
+project: E-training Platform
 title: How a Company train their teams on a digital era
 date: 2019-09-23
 cover: https://picsum.photos/1200/800?grayscale&random=1
-client: MTN Benin
+client: E-Business Afrique
 description: How a Company train their teams on a digital era
 category: Android App Design
 thumbnail: /projects/thumbnail-four.png
@@ -19,7 +20,7 @@ As an innovative Company, MTN Benin partnered with **E-Business Afrique** a Digi
 
 After multiple workshops, feedback, and meetings the Online Training platform was born but was only available as a web platform. 
 
-A mobile experience of the training platform was needed and as an **ux designer** I was hired by the **E-Business Afrique** for that purpose. 
+A mobile experience of the training platform was needed and as **E-Business Afrique**  **ux designer** i took the challenge. 
 
 ## Understanding the users goals 
 
@@ -40,24 +41,24 @@ The problems was well stated and user goals when using the app was clearly defin
 
 Studying the requirements allowed me to highlight informations architecture  and user flows within the mobile app.
 
-<img class="img-fluid" src="/projects/mtn/user-flows-min.jpg" alt="user-flows-and-information-architecture">
+<img class="img-fluid" src="/projects/e-training-platform/user-flows-min.jpg" alt="user-flows-and-information-architecture">
 
 #### Sketches
 
 The user goals in mind, i tried some sketches and once the flows was cleary defined i moved to design the wireframes in the **JustInmind Prototyping Tool**. 
 
-<img class="img-fluid" src=/projects/mtn/wireframing-min.jpg>
+<img class="img-fluid" src=/projects/e-training-platform/wireframing-min.jpg>
 
 
 #### Wireflows
 
-<img class="img-fluid" src=/projects/mtn/wireflows.png>
+<img class="img-fluid" src=/projects/e-training-platform/wireflows.png>
 
 ## Prototyping the app in High Fidelity
 
 I submitted the wireframes to the team to gather feeback on feasibility, and co-create the iterations of the product.
 
-<img class="img-fluid" src=/projects/mtn/Prototyping-in-Jusinmind.png> <br><br>
+<img class="img-fluid" src=/projects/e-training-platform/Prototyping-in-Jusinmind.png> <br><br>
 
 
 ##### Applying Brand identity and Material design guidelines
@@ -69,14 +70,14 @@ Using an online tool allowing extraction of the color palette of a website and g
 
 <div class="row mt-4 mb-4">
     <div class=col-4>
-        <img class="img-fluid" src=/projects/mtn/palette-couleurs.png>
-        <img class="img-fluid" src=/projects/mtn/testing-palette-with-material-guidelines.png>
+        <img class="img-fluid" src=/projects/e-training-platform/palette-couleurs.png>
+        <img class="img-fluid" src=/projects/e-training-platform/testing-palette-with-material-guidelines.png>
     </div>
     <div class=col-4>
-        <img class="img-fluid" src=/projects/mtn/wireframe_Prototype.gif>
+        <img class="img-fluid" src=/projects/e-training-platform/wireframe_Prototype.gif>
     </div>
     <div class=col-4>
-        <img class="img-fluid" src=/projects/mtn/hifi-prototype.gif>
+        <img class="img-fluid" src=/projects/e-training-platform/hifi-prototype.gif>
     </div>
 </div>
 
@@ -87,7 +88,7 @@ The **high fidelity** prototype was shared with the Stakeholders withe the team 
 In fact some new cases occured like the increasing number of courses categories or the availability to pass test within the app. 
 Thoses changes were handle smoothly. 
 
-<img class="img-fluid" src=/projects/mtn/learning-on-the-go.jpg>
-<img class="img-fluid" src=/projects/mtn/live-chat-showcase.jpg>
+<img class="img-fluid" src=/projects/e-training-platform/learning-on-the-go.jpg>
+<img class="img-fluid" src=/projects/e-training-platform/live-chat-showcase.jpg>
 
 

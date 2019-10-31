@@ -26,10 +26,10 @@
         projects: [
           {
           category:"Android App Design",
-          client:"MTN Benin",
+          client:"E-Training Platform",
           description:"How a Company train their staff on a digital era", 
-          thumbnail:"/projects/mtn/thumbnail-five.png",
-          slug:"mtn",
+          thumbnail:"/projects/e-training-platform/thumbnail-five.png",
+          slug:"e-training-platform",
         },
         {
           category:"Website Design",

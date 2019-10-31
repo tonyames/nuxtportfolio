@@ -4,7 +4,7 @@
 			<div class="row mt-4 mb-4 align-items-center">
 				<div class="col-12 col-md-6 ">
 					<div class="title">
-						<h1>{{attributes.client}}</h1>
+						<h1>{{attributes.project}}</h1>
 						<h3>{{attributes.description}}</h3>
 					</div>
 				</div>

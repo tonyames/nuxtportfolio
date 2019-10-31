@@ -1,5 +1,6 @@
 ---
 slug: nepad
+project: NEPAD IPPF
 title: Design a website for an african institution 
 date: 2019-05-10
 cover: https://picsum.photos/1200/800?grayscale&random=1
